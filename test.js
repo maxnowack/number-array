@@ -15,5 +15,5 @@ test('with offset', t => {
 });
 
 test('with step', t => {
-  t.true(arraySame(numberArray(5, 0, 2), [0, 2, 4]));
+  t.true(arraySame(numberArray(5, 0, 2), [0, 2, 4, 6, 8]));
 });
