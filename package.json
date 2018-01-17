@@ -1,0 +1,30 @@
+{
+  "name": "number-array",
+  "version": "1.0.0",
+  "description": "Generates an array based on a series of numbers",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "xo": {
+    "space": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxnowack/number-array.git"
+  },
+  "author": "Max Nowack",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maxnowack/number-array/issues"
+  },
+  "homepage": "https://github.com/maxnowack/number-array#readme",
+  "devDependencies": {
+    "array-same": "^1.0.2",
+    "ava": "^0.24.0",
+    "xo": "^0.18.2"
+  }
+}
